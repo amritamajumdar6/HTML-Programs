@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content Example </title>
+</head>
+<body>
+    <p id="Sample"> Hello World!!! </p>
+    <button onclick="changeContent();"> Changing Content Dynamically </button>
+    <script type="text/javascript">
+        function changeContent()
+        {
+            document.getElementById("Sample").innerHTML = "Hi everyone, I am the first javascript file"
+        }
+    </script>
+</body>
+</html>
